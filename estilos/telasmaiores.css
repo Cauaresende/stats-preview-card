@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1024px) {
+   #imagem {
+    display: none;
+   }
+
+   main {
+    width: 850px;
+    height: 400px;
+   }
+
+   h1 {
+    font-size: 2em;
+   }
+
+   h2 {
+    font-size: 16px;
+   }
+
+   ul {
+    padding-top: 40px;
+    display: inline-flex;
+   }
+
+   #imagem {
+    background-image: url(../midia/image-header-desktop.jpg);
+    width: 400px;
+    height: 400px;
+
+    display: block;
+    float: right;
+    margin-left: 50px;
+
+    border-radius: none;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 8px;
+   }
+
+}
